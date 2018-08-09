@@ -1,0 +1,53 @@
+
+
+
+<style>
+
+</style>
+<div class="wapper">
+
+
+	<ul >
+	<li class="left">
+		
+		PaxShop
+		</li>
+		
+		<li class="right">
+		
+		<a> Add new product</a>
+		</li>
+	
+	</ul>
+
+	
+	<h1>heading text here </h1>
+	
+	
+	<div class="product-outer">
+	<h2>Sku 1</h2>
+		<ul>
+		
+            <p>
+                <li *ngFor="let product of listOfProducts">
+                    
+                      <span class="badge">{{product.entity_id}}</span> 
+                   
+                  </li>
+            </p>
+		</ul>
+		
+		<ul style="margin-top:200px;">
+		<h2>Sku 2</h2>
+		<p>
+            <li *ngFor="let product of listOfProducts">
+                
+                  <span class="badge">{{product.entity_id}}</span> 
+               
+              </li>
+        </p>
+		</ul>
+	
+	</div>
+
+</div>
